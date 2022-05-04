@@ -1,0 +1,16 @@
+:host {
+  --color-bg-default: #ffffff;
+  --color-fg-primary: #295e2e;
+  --color-fg-default: #000000;
+  --color-fg-accent: #648563;
+  --color-bg-inrange: #182645;
+  --day-width: 30px;
+  --day-height: 25px;
+}
+/* increase start and end */
+.container.range-plugin .calendar>.days-grid>.day.start,
+.container.range-plugin .calendar>.days-grid>.day.end {
+  font-weight: bold;
+  transform: scale(1.2);
+  z-index: 1;
+}
